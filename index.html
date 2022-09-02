@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-header text-primary">
+            SẮP XẾP 3 SỐ NGUYÊN BẤT KỲ
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <label for="">Số thứ nhất</label>
+                <input type="number" class="form-control" name="" id="num1" aria-describedby="helpId" placeholder="">
+                <label for="">Số thứ hai</label>
+                <input type="number" class="form-control" name="" id="num2" aria-describedby="helpId" placeholder="">
+                <label for="">Số thứ ba</label>
+                <input type="number" class="form-control" name="" id="num3" aria-describedby="helpId" placeholder="">
+            </div>
+            <button class="btn btn-success" onclick="sapXep()">Sắp xếp</button>
+        </div>
+        <div id="sapxep" class="card-footer text-danger">
+        </div>
+    </div>
+    <br>
+    <div class="card">
+        <div class="card-header text-primary">
+            CHƯƠNG TRÌNH CHÀO HỎI
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <label for="">Bạn là ai vậy ?</label>
+                <div class="form-group">
+                    <select class="custom-select" name="" id="luaChon">
+                        <option value="B">Bố</option>
+                        <option value="M">Mẹ</option>
+                        <option value="A">Anh trai</option>
+                        <option value="E">Em gái</option>
+                    </select>
+                </div>
+            </div>
+            <button class="btn btn-success" onclick="traLoi()">Trả lời</button>
+        </div>
+        <div id="Hello" class="card-footer text-danger">
+        </div>
+    </div>
+    <br>
+    <div class="card">
+        <div class="card-header text-primary">
+            3 SỐ NGUYÊN BẤT KỲ, TÍNH SỐ CHẴN-LẺ
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <label for="">Số thứ 1</label>
+                <input type="number" class="form-control" name="" id="number1" aria-describedby="helpId" placeholder="">
+                <label for="">Số thứ 2</label>
+                <input type="number" class="form-control" name="" id="number2" aria-describedby="helpId" placeholder="">
+                <label for="">Số thứ 3</label>
+                <input type="number" class="form-control" name="" id="number3" aria-describedby="helpId" placeholder="">
+            </div>
+            <button class="btn btn-success" onclick="ketQua()">Kết quả</button>
+        </div>
+        <div id="result" class="card-footer text-danger">
+        </div>
+    </div>
+    <br>
+    <div class="card">
+        <div class="card-header text-primary">
+            CHO 3 CẠNH XÁC ĐỊNH TAM GIÁC
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <label for="">Cạnh thứ 1</label>
+                <input type="number" class="form-control" name="" id="canhThu1" aria-describedby="helpId" placeholder="">
+                <label for="">Cạnh thứ 2</label>
+                <input type="number" class="form-control" name="" id="canhThu2" aria-describedby="helpId" placeholder="">
+                <label for="">Cạnh thứ 3</label>
+                <input type="number" class="form-control" name="" id="canhThu3" aria-describedby="helpId" placeholder="">
+            </div>
+            <button class="btn btn-success" onclick="xacDinh()">Xác định</button>
+        </div>
+        <div id="thongBao" class="card-footer text-danger">
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./baitap.js"></script>
+</body>
+
+</html>
